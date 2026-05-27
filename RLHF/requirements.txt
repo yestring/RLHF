@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.45
+trl>=0.10
+vllm>=0.6
+ray>=2.10
+accelerate>=0.33
+datasets>=2.20
+peft>=0.12
