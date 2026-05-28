@@ -192,25 +192,7 @@ worker.generate_with_params(
 3. RDMA 支持
 4. 自适应调度策略
 
-## 不要做的事情 ⚠️
 
-这个项目刻意避免：
-- ❌ 重写 vLLM 推理引擎
-- ❌ 自定义 NCCL 通讯
-- ❌ Triton 内核开发
-- ❌ RDMA 网络编程
-
-这些会让项目迅速失控。保持聚焦很重要。
-
-## 项目定位
-
-**正确的定位方式**：
-
-> "我实现了一个 **Distributed RLHF/DPO Training Optimization System**，重点优化 **rollout-training overlap** 与 **prefix cache reuse**，在 AI 基础设施领域体现了工程能力。"
-
-**不要说**：
-- ❌ "我实现了一个 RLHF 框架"（太大）
-- ❌ "我做了 LLM 训练系统"（太宽泛）
 
 ## 技术栈
 
